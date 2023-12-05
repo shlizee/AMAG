@@ -6,7 +6,7 @@ This is the repository for paper "AMAG: Additive, Multiplicative and Adaptive Gr
 
 AMAG addresses modeling neural population dynamics via the forecasting task and improves forecasting performance by including a prior embedded with Graph Neural network, which consists of pairwise neural unit interaction as a multivariate dynamic system. The method leverages additive and multiplicative message-passing operations analogous to the interactions in neuronal systems and adaptively learns the interaction among neural units to forecast their future activity. 
 
-Our contributions are:
+Contributions:
 - AMAG can forecast neuron activity by using sample-dependent additive and multiplicative message-passing operations with a learnable adjacency matrix.
 - AMAG learns the underlying spatial interactions on synthetic datasets and show the importance of learning to forecast in discovering such interactions.
 - We apply AMAG to four neural recording datasets and demonstrate its reliability in generating future neural activity while recovering the channel spatial proximity in the learned adjacency matrix and aligning neural trajectories in the latent space.
@@ -21,10 +21,10 @@ We evaluate the ability of AMAG to recover the ground truth adjacency matrix of 
 
 ## Forecasting Visualization on Four Monkey Datasets
 We compare AMAG with baseline methods, including RNN-based, Transformer-based, and Graph-based methods for one-step forecasting and multi-step forecasting
-#### One-step forecasting
+#### One-step forecasting performance in R squared ($R\^2$), Correlation (Corr), and Mean Squared Error (MSE).
 ![image](https://github.com/christincha/AMAG/assets/27986186/3cb40c18-d32c-4f2f-881e-9ce7e3679d6c)
 
-#### Multi-step forecasting
+#### Multi-step forecasting performance in R squared ($R\^2$), Correlation (Corr), and Mean Squared Error (MSE).
 ![image](https://github.com/christincha/AMAG/assets/27986186/0da625b1-99d2-4676-9dd0-affee9b99c29)
 
 
