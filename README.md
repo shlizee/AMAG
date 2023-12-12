@@ -1,12 +1,18 @@
 # AMAG
 ## Introduction
-This is the repository for paper "AMAG: Additive, Multiplicative and Adaptive Graph Neural Network For Forecasting Neural Activity," Accepted to NeurIPS 2023.
-[OpenReview](https://openreview.net/forum?id=7ntI4kcoqG) [Dataset](https://zenodo.org/doi/10.5281/zenodo.10139709)
+This is the webpage for paper "AMAG: Additive, Multiplicative and Adaptive Graph Neural Network For Forecasting Neural Activity," to appear NeurIPS 2023.
+
+Paper: 
+[OpenReview](https://openreview.net/forum?id=7ntI4kcoqG) 
+
+Dataset:
+[Dataset](https://zenodo.org/doi/10.5281/zenodo.10139709)
 
 
 AMAG addresses modeling neural population dynamics via the forecasting task and improves forecasting performance by including a prior embedded with Graph Neural network, which consists of pairwise neural unit interaction as a multivariate dynamic system. The method leverages additive and multiplicative message-passing operations analogous to the interactions in neuronal systems and adaptively learns the interaction among neural units to forecast their future activity. 
 
-Contributions:
+AMAG Features:
+
 - AMAG can forecast neuron activity by using sample-dependent additive and multiplicative message-passing operations with a learnable adjacency matrix.
 - AMAG learns the underlying spatial interactions on synthetic datasets and show the importance of learning to forecast in discovering such interactions.
 - We apply AMAG to four neural recording datasets and demonstrate its reliability in generating future neural activity while recovering the channel spatial proximity in the learned adjacency matrix and aligning neural trajectories in the latent space.
