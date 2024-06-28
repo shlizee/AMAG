@@ -1,6 +1,6 @@
 # AMAG
 ## Introduction
-This is the webpage for paper "AMAG: Additive, Multiplicative and Adaptive Graph Neural Network For Forecasting Neural Activity," published in NeurIPS 2023.
+This is the webpage for paper "AMAG: Additive, Multiplicative and Adaptive Graph Neural Network For Forecasting Neural Activity", published in NeurIPS 2023.
 
 Paper: 
 [OpenReview](https://openreview.net/forum?id=7ntI4kcoqG) 
@@ -38,7 +38,7 @@ We compare AMAG with baseline methods, including RNN-based, Transformer-based, a
 ![image](https://github.com/christincha/AMAG/assets/27986186/49833ebb-47e9-4347-91a4-baade35fa7f7)
 
 ## BibTex
-If you find the content is useful, please cite our paper: [AMAG: Additive, Multiplicative and Adaptive Graph Neural Network For Forecasting Neural Activity](https://openreview.net/forum?id=7ntI4kcoqG).
+If you find the content useful, please cite AMAG paper: [AMAG: Additive, Multiplicative and Adaptive Graph Neural Network For Forecasting Neural Activity](https://openreview.net/forum?id=7ntI4kcoqG).
 
     @article{li2024amag,
       title={AMAG: Additive, Multiplicative and Adaptive Graph Neural Network For Forecasting Neuron Activity},
