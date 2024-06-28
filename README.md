@@ -37,4 +37,13 @@ We compare AMAG with baseline methods, including RNN-based, Transformer-based, a
 #### Visualization of the forecasted signal of AMAG with the strongest baselines.
 ![image](https://github.com/christincha/AMAG/assets/27986186/49833ebb-47e9-4347-91a4-baade35fa7f7)
 
+## BibTex
+
+    @article{li2024amag,
+      title={AMAG: Additive, Multiplicative and Adaptive Graph Neural Network For Forecasting Neuron Activity},
+      author={Li, Jingyuan and Scholl, Leo and Le, Trung and Rajeswaran, Pavithra and Orsborn, Amy and Shlizerman, Eli},
+      journal={Advances in Neural Information Processing Systems},
+      volume={36},
+      year={2024}
+    }
 
